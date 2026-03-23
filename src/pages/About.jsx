@@ -53,10 +53,9 @@ export default function About() {
 
         {[
           "I am a UX/UI Designer and Full-Stack Developer passionate about creating intuitive digital experiences and scalable web applications. I work across the development lifecycle — from user-centered design and prototyping to frontend and backend development — building solutions that are both visually engaging and technically reliable.",
-          "I am currently finalizing my Diploma in UX/UI Design at UniAthena Institution and enrolling at the University of South Africa (UNISA) for Python Programming (77100) – SCPPE20, further strengthening my technical and development skills.",
-          "Through training at Power Learn Project (PLP) Academy and hands-on projects, I have developed strong experience with technologies such as React, JavaScript, TypeScript, Node.js, Express, MongoDB and Python.",
-          "One of my notable projects is QueueCare, a smart queue and file management system designed for healthcare facilities to streamline patient flow and improve service efficiency.",
-          "Let’s build the future — one line of code at a time."
+          "I am currently finalizing my Diploma in UX/UI Design at UniAthena Institution and enrolling at the University of South Africa (UNISA) for Python Programming (77100) – SCPPE20, further strengthening my technical and development skills and also completed my training programme through Afrika Tikkun Microsoft software development",
+          "I’ve built several projects from design all the way to full-stack development, including AI-powered applications. I believe my work and portfolio speak for themselves.",
+          "I’m passionate about using technology to solve real-world problems and create meaningful impact."
         ].map((text, i) => (
           <motion.p
             key={i}
