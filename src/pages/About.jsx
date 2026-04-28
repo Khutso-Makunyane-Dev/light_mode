@@ -53,7 +53,7 @@ export default function About() {
 
         {[
           "I am a UX/UI Designer and Full-Stack Developer passionate about creating intuitive digital experiences and scalable web applications. I work across the development lifecycle — from user-centered design and prototyping to frontend and backend development — building solutions that are both visually engaging and technically reliable.",
-          "I am currently finalizing my Diploma in UX/UI Design at UniAthena Institution and enrolling at the University of South Africa (UNISA) for Python Programming (77100) – SCPPE20, further strengthening my technical and development skills and also completed my training programme through Afrika Tikkun Microsoft software development",
+          "I am currently finalizing my Diploma in UX/UI Design at UniAthena Institution and enrolling at the University of South Africa (UNISA) for Python Programming (77100) – SCPPE20, which is helping me further strengthen my technical and development skills. I also completed a training programme in Microsoft Software Development through Afrika Tikkun. I am currently working at Prime Resolve Debt Resolution as a UX/UI Designer and Full-Stack Developer, where I continue to build real-world experience while growing my skills in both design and development.",
           "I’ve built several projects from design all the way to full-stack development, including AI-powered applications. I believe my work and portfolio speak for themselves.",
           "I’m passionate about using technology to solve real-world problems and create meaningful impact."
         ].map((text, i) => (

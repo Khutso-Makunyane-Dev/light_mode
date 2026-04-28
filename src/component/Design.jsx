@@ -13,6 +13,12 @@ import Queue from "../assets/QueueCare.png";
 import Adidas from "../assets/Adidas.png";
 import Meetify from "../assets/Meetify.png";
 import Jays from "../assets/Jays.png";
+import Prime1 from '../assets/Prime1.jpg';
+import Prime2 from '../assets/Prime2.png';
+import Prime3 from '../assets/Prime3.png';
+import Prime4 from '../assets/Prime4.png';
+import PrimeSystem from '../assets/Prime System.jpg';
+import HopesButcher from '../assets/HopesButcher.png';
 // ✅ Design Card Component
 const DesignCard = ({ image, title, subtitle, tools = [] }) => {
   const [modal, setModal] = useState(false);
@@ -82,7 +88,7 @@ const DesignCard = ({ image, title, subtitle, tools = [] }) => {
 
 // ✅ Main Design Component
 export default function Design() {
-  const [viewAll, setViewAll] = useState(false);
+ 
 
   return (
     <motion.div
@@ -93,6 +99,34 @@ export default function Design() {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       {/* Initial Grid */}
+       <DesignCard
+        image={PrimeSystem}
+        title="Prime Resolve"
+        subtitle="Prime System"
+        tools={["Figma", "Material Designs", "WireFrames", "UX Flow"]}
+      />
+
+      <DesignCard
+        image={Prime3}
+        title="Prime Resolve"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
+       <DesignCard
+        image={Prime2}
+        title="Prime Resolve"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
+        <DesignCard
+        image={HopesButcher}
+        title="Hope's Butchery"
+        subtitle="Product Design"
+        tools={["Figma", "Material Designs", "Brand Colors"]}
+      />
+
       <DesignCard
         image={StandardBank}
         title="Standard Bank"
@@ -133,6 +167,12 @@ export default function Design() {
         <DesignCard image={Adidas} title="Adidas Product" subtitle="Product Design" tools={["Figma", "Illustrations", "Materia Design"]} />
         <DesignCard image={Meetify} title="Meetify" subtitle="Software" tools={["Figma", "UI Design", "WireFrame"]} />
         <DesignCard image={Jays} title="Jays Electronics" subtitle="Ecommerce" tools={["Figma", "Material Designs", "Brand Colors"]} />
+        <DesignCard image={Prime1} title="Prime Resolve" subtitle="Poster" tools={["Figma", "Material Designs", "Brand Colors"]} />
+        <DesignCard image={Prime4} title="Prime Resolve" subtitle="Poster" tools={["Figma", "Material Designs", "Brand Colors"]} />
+
+
+
+
 
 
       {/* View All Button */}
